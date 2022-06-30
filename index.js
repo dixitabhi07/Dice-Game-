@@ -18,6 +18,8 @@ image2.setAttribute("src",randomimagesource2);
 if(n1>n2){
   document.querySelector("h1").innerHTML="Winner Player 1";
 }
+else if (n1===n2){
+  document.querySelector("h1").innerHTML="Game Draw";
 else{
     document.querySelector("h1").innerHTML="Winner Player 2";
 }
